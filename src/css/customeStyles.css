@@ -4,6 +4,7 @@
 
 .navbar-default {
     background: rgba(255, 255, 255, 0);
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
 }
 .navbar-brand{
     height: 0px;
@@ -11,6 +12,11 @@
 }
 .navbar-fixed-top{
     border-width: 0px;
+}
+
+.leftpadding{
+    padding-left: 20px;
+
 }
 
 
@@ -37,9 +43,9 @@
 
 .navbarlinksColor400 {
     color: whitesmoke;
-    font-size: 0.8em;
+    font-size: 0.6em;
     font-weight: 400;
-    font-style: italic;
+    font-style: oblique;
     font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
 }
 
@@ -47,6 +53,9 @@
     color: hsl(20, 100%, 65%);
 }
 
+.orangeColour{
+      color: hsl(20, 100%, 65%);
+}
 
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
@@ -66,13 +75,13 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 15px 0;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
     .top-nav-collapse {
-        padding: 0;
+        padding: 8px;
     }
 }
 
@@ -106,16 +115,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-/*Carosel properties*/
-#chania{
-
-    background-image: url("../images/start0.jpg");
-background-repeat: no-repeat;
-width: auto; /*or your image's width*/
-height: auto; /*or your image's height*/
-margin: 0;
-padding: 0;
-}
 
 
 

@@ -6,8 +6,8 @@ export default class Carousel extends React.Component{
   return (
 
 
-<div class="">
-  <br></br>
+<div >
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -21,35 +21,29 @@ export default class Carousel extends React.Component{
 
       <div class="item active">
         <img src="../../../images/aboutUs.jpg" alt="Chania" ></img>
-        <div class="carousel-caption">
-          <h3>Chania</h3>
+        <div class="carousel-caption basicMarginForCards">
+          <h3 class="navbarHeadingTextColor">about US</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
         </div>
       </div>
-
+          
       <div class="item">
-        <img src="../../../images/start0.jpg" alt="Chania" ></img>
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
-      </div>
-    
-      <div class="item">
-        <img src="../../../images/start1.jpg" alt="Flower" ></img>
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
+        <img src="../../../images/start0.jpg" alt="Flower" ></img>
+        <div class="carousel-caption basicMarginForCards">
+          <h3 class="navbarHeadingTextColor">Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
         </div>
       </div>
 
       <div class="item">
         <img src="../../../images/start2.jpg" alt="Flower" ></img>
-        <div class="carousel-caption">
-          <h3>Flowers</h3>
+        <div class="carousel-caption basicMarginForCards">
+          <h3 class="navbarHeadingTextColor">Something</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
         </div>
       </div>
+
+
   
     </div>
 

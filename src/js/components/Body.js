@@ -11,8 +11,8 @@ export default class Body extends React.Component {
     return (
       <div>
         <Header/>
-        <Carousel/>
-            
+        
+            <Carousel/>
         <Footer/>
       </div>
     );
