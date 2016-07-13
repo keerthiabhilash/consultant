@@ -1,42 +1,52 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900,800,700,500,400);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 
+
 .navbar-default {
-    /*background-color:	rgb(88,88,88) ;*/
-  background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
 }
-.customeFontSans900 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 900;
-    font-size: 1.5em;
+.navbar-brand{
+    height: 0px;
+    padding: 0px;
 }
-.customeFontSans500{
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 500;
-    
-}
-.navbarTextColor{
-    /*color: hsl(151, 100%, 75%);*/
-    color: whitesmoke;
-    font-size: 1.6em;
-    font-weight: 700;
-    font-style: italic;
-    font-family:'Roboto Slab','Kaushan Script',sans-serif;
-}
-.navbarTextColor:hover{
-    color: hsl(151, 90%, 62%);
-  
+.navbar-fixed-top{
+    border-width: 0px;
 }
 
-.navbarlinksColor{
-    color: #b3ffd9;
+
+
+.navbarHeadingTextColor {
+    /*color: hsl(151, 100%, 75%);*/
+    color: hsl(20, 90%, 60%);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
+}
+
+.navbarHeadingTextColor:hover {
+    color: hsl(20, 90%, 75%);
+}
+
+.navbarlinksColor {
+    color: hsl(0, 0%, 75%);
     font-size: 1.2em;
+    font-weight: 700;
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
+}
+
+.navbarlinksColor400 {
+    color: whitesmoke;
+    font-size: 0.8em;
     font-weight: 400;
-    font-family:'Roboto Slab','Kaushan Script',sans-serif;
+    font-style: italic;
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
 }
-.navbarlinksColor:hover{
-    color: #1aff8c;
+
+.navbarlinksColor:hover {
+    color: hsl(20, 100%, 65%);
 }
+
 
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
@@ -57,15 +67,15 @@ html {
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
-
     .top-nav-collapse {
         padding: 0;
     }
 }
+
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -75,38 +85,63 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
 }
 
 .services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
 }
+
+
+/*Carosel properties*/
+#chania{
+
+    background-image: url("../images/start0.jpg");
+background-repeat: no-repeat;
+width: auto; /*or your image's width*/
+height: auto; /*or your image's height*/
+margin: 0;
+padding: 0;
+}
+
+
 
 /* Cards CSS*/
 
-.imageFull{
-    background-image: url("../images/start0.jpg") ;
-    background-repeat: no-repeat;
-background-position: center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+.imageFullResponsiveandCenter {
+    background: url("../images/start0.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.basicMarginForCards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }

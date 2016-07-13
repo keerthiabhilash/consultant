@@ -1,6 +1,6 @@
 {
-  "name": "react-tutorials",
-  "version": "0.0.0",
+  "name": "consultant-website",
+  "version": "0.0.1",
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {

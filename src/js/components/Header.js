@@ -17,9 +17,12 @@ export default class Header extends React.Component {
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand page-scroll " href="#page-top">
-                            <label class="customeFontSans500 navbarTextColor">Tech Vision
-                            </label></a>
+                            <a class="page-scroll " href="#page-top">
+                           <div class="navbar-brand">
+                            <h1 class="navbarHeadingTextColor">TechVision-US</h1>
+                            <h4 class="navbarlinksColor400">Consulting Co.</h4>
+                            </div>
+                            </a>
                         </div>
 
                         <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
