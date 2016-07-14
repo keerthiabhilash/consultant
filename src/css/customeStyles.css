@@ -144,3 +144,26 @@ of those sections to manage the look and feel of the site. */
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
+
+.marginNone{
+    margin: 0px;
+}
+
+.blackColor{
+    background: rgba(0, 0, 0, 0.91);
+}
+
+.alignCenter{
+    align-content: center;
+}
+
+.socailNetworksLayout{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+.padding2px{
+      padding-left: 4px;
+    padding-right: 4px;
+}
