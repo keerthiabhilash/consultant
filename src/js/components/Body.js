@@ -14,6 +14,7 @@ export default class Body extends React.Component {
         <Header/>
         
             <Carousel/>
+     
             <ContactUs/>
         <Footer/>
       </div>

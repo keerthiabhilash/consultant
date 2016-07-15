@@ -6,7 +6,7 @@ export default class Body extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="row">
           <section id="intro" class="intro-section  container">
             <div class=" row">
               <div class=" imageFullResponsiveandCenter">

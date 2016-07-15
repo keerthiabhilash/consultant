@@ -5,8 +5,8 @@ export default class Carousel extends React.Component{
  render() {
   return (
 
-
-<div >
+<div class="">
+<div class="row">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -64,6 +64,7 @@ export default class Carousel extends React.Component{
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
 </div>
 
 
