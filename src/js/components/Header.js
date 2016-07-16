@@ -36,8 +36,12 @@ export default class Header extends React.Component {
                                     <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-user orangeColour"></span> About US</label></a>
                                 </li>
                                 <li>
-                                    <a class="page-scroll" href="#services">
+                                <a class="page-scroll" href="#services">
                                     <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-bullhorn orangeColour"></span> Services</label></a>
+                                </li>
+                                <li>
+                                <a class="page-scroll" href="#services">
+                                    <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-road orangeColour"></span> Careers</label></a>
                                 </li>
                                 <li>
                                     <a class="page-scroll" href="#contact">
@@ -48,10 +52,6 @@ export default class Header extends React.Component {
                         </div>
                     </div>
                 </nav>
-
-
-   
-
             </div>
         );
     }

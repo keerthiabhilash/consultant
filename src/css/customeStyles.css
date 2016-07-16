@@ -1,24 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900,800,700,500,400);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
-
-
 .navbar-default {
     background: rgba(255, 255, 255, 0);
-   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
 }
-.navbar-brand{
+
+.navbar-brand {
     height: 0px;
     padding: 0px;
 }
-.navbar-fixed-top{
+
+.navbar-fixed-top {
     border-width: 0px;
 }
 
-.leftpadding{
+.leftpadding {
     padding-left: 20px;
-
 }
 
+.robotoSlabHeading700{
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: hsl(20, 90%, 60%);
+}
 
 
 .navbarHeadingTextColor {
@@ -53,9 +58,10 @@
     color: hsl(20, 100%, 65%);
 }
 
-.orangeColour{
-      color: hsl(20, 100%, 65%);
+.orangeColour {
+    color: hsl(20, 100%, 65%);
 }
+
 
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
@@ -115,9 +121,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-
-
-
 /* Cards CSS*/
 
 .imageFullResponsiveandCenter {
@@ -137,7 +140,7 @@ of those sections to manage the look and feel of the site. */
     overflow: auto;
 }
 
-.basicMarginForCards{
+.basicMarginForCards {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -145,29 +148,135 @@ of those sections to manage the look and feel of the site. */
     transform: translate(-50%, -50%)
 }
 
-
-.marginNone{
+.marginNone {
     margin: 0px;
 }
 
-.blackColor{
+/** footer feColorMatrix*/
+.blackColor {
     background: rgba(0, 0, 0, 0.91);
 }
 
-.alignCenter{
+.alignCenter {
     align-content: center;
 }
 
-.socailNetworksLayout{
+.socailNetworksLayout {
     padding-left: 20px;
     padding-right: 20px;
     margin: 5px;
 }
-.padding2px{
-      padding-left: 4px;
+
+.padding2px {
+    padding-left: 4px;
     padding-right: 4px;
 }
-      #map {
-        width: 100%;
-        height: 400px;
-      }
+
+.padding20px {
+ padding: 20px;
+}
+
+
+
+
+
+
+
+
+/*contact us colume*/
+
+.mapLayout {
+    /*background: rgba(36, 35, 34, 0.82);*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));
+    padding: 20px;
+}
+
+#map {
+    min-width: 300px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.addressInMap{
+    min-width: 300px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.blackTransperentColor{
+    background: rgba(229, 226, 224, 0.12);
+    border: 5px; 
+    border-color: rgba(133, 125, 121, 0.53);
+}
+
+.AddressDesign{
+    background: rgba(36, 35, 34, 0.82);
+}
+
+.trasperentcOLOR{
+    background: rgba(0, 0, 0, 0.34);
+}
+.robotoSlabHeading400{
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
+      font-size: 1.4em;
+    font-weight: 400;
+    color: white;
+}
+.onHoverwhite{
+
+    color: whitesmoke;
+}
+.onGreen{
+
+    color: green;
+}
+.onHoverwhite:hover{
+    color: rgba(255, 243, 235, 0.8);
+}
+
+.noborders{
+    border:2px;
+    border-bottom-color: rgba(193, 105, 68, 0.75);
+}
+
+.padding5px{
+    padding: 5px;
+}
+
+
+/*ServiceBlock*/
+
+.serviceLayout{
+    min-width: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding: 10vh;
+    padding-top:12vh; 
+    background-image: radial-gradient( rgba(193, 105, 68, 0.08), rgba(193, 105, 68, 0.25));
+}
+#services img.icon {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.svgFileLayOut{
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.img-circle{
+    content: 25px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 5px ;
+    border-radius: 15px;
+
+    
+}

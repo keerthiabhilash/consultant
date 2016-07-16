@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Cards from "./parts/Cards";
 import Carousel from "./parts/Carousel";
 import ContactUs from "./parts/ContactUs";
+import Services from "./parts/Services";
 
 
 export default class Body extends React.Component {
@@ -14,6 +15,7 @@ export default class Body extends React.Component {
         <Header/>
         
             <Carousel/>
+            <Services/>
      
             <ContactUs/>
         <Footer/>
