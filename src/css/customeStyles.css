@@ -1,5 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900,800,700,500,400);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+.padding2px {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.padding20px {
+ padding: 20px;
+}
+.padding15px{
+    padding: 15px; 
+}
 .navbar-default {
     background: rgba(255, 255, 255, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
@@ -24,7 +35,6 @@
     font-weight: 700;
     color: hsl(20, 90%, 60%);
 }
-
 
 .navbarHeadingTextColor {
     /*color: hsl(151, 100%, 75%);*/
@@ -167,40 +177,34 @@ of those sections to manage the look and feel of the site. */
     margin: 5px;
 }
 
-.padding2px {
-    padding-left: 4px;
-    padding-right: 4px;
-}
-
-.padding20px {
- padding: 20px;
-}
-
-
-
-
-
-
 
 
 /*contact us colume*/
 
 .mapLayout {
     /*background: rgba(36, 35, 34, 0.82);*/
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));
+    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));*/
     padding: 20px;
 }
-
+.contactUsLayout{
+    min-width: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding: 10vh;
+    padding-top:12vh; 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));
+}
 #map {
     min-width: 300px;
-    min-height: 500px;
+    min-height: 60vh;
     width: 100%;
     height: 100%;
 }
 
 .addressInMap{
     min-width: 300px;
-    min-height: 500px;
+    min-height: 60vh;
     width: 100%;
     height: 100%;
     padding: 15px;
@@ -255,7 +259,7 @@ of those sections to manage the look and feel of the site. */
     width: 100%;
     height: 100%;
     padding: 10vh;
-    padding-top:12vh; 
+    padding-top:9vh; 
     background-image: radial-gradient( rgba(193, 105, 68, 0.08), rgba(193, 105, 68, 0.25));
 }
 #services img.icon {
@@ -276,7 +280,15 @@ of those sections to manage the look and feel of the site. */
     background-color: whitesmoke;
     padding: 5px;
     border: 5px ;
-    border-radius: 15px;
+    border-radius: 15px;   
+}
 
-    
+.listToCenter{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.servicespadding20vh{
+    padding-top:9vh; 
 }

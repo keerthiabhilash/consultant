@@ -28,3 +28,27 @@ function initMap() {
         zoom: 8
     });
 }
+
+// // smooth scrolling
+$(function(){	
+
+        var $window = $(window);
+	var scrollTime = 1.1;
+	var scrollDistance = 150;
+
+	$window.on("mousewheel DOMMouseScroll", function(event){
+
+		event.preventDefault();	
+
+		var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+		var scrollTop = $window.scrollTop();
+		var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+
+		TweenMax.to($window, scrollTime, {
+			scrollTo : { y: finalScroll, autoKill:true },
+				ease: Power1.easeOut,
+				overwrite: 5							
+			});
+
+	});
+});

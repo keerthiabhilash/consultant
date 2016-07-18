@@ -6,6 +6,7 @@ export default class ContactUs extends React.Component {
 
     render() {
         return (
+            <div id="contactUs" class="contactUsLayout">
             <div class="mapLayout">
                 <div class="container-fluid padding20px">
 
@@ -43,7 +44,7 @@ export default class ContactUs extends React.Component {
                             </div>
                         </div>
                         </div>
-
+</div>
                 </div>
             </div>
 
