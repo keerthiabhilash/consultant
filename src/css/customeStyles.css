@@ -6,11 +6,13 @@
 }
 
 .padding20px {
- padding: 20px;
+    padding: 20px;
 }
-.padding15px{
-    padding: 15px; 
+
+.padding15px {
+    padding: 15px;
 }
+
 .navbar-default {
     background: rgba(255, 255, 255, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
@@ -29,7 +31,7 @@
     padding-left: 20px;
 }
 
-.robotoSlabHeading700{
+.robotoSlabHeading700 {
     font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
     font-size: 1.8em;
     font-weight: 700;
@@ -87,6 +89,8 @@ body {
 html {
     width: 100%;
     height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 @media(min-width:767px) {
@@ -98,6 +102,13 @@ html {
     }
     .top-nav-collapse {
         padding: 8px;
+    }
+}
+
+@media(min-width:400px) {
+    html {
+        overflow-x: auto;
+        overflow-y: auto;
     }
 }
 
@@ -162,7 +173,9 @@ of those sections to manage the look and feel of the site. */
     margin: 0px;
 }
 
+
 /** footer feColorMatrix*/
+
 .blackColor {
     background: rgba(0, 0, 0, 0.91);
 }
@@ -178,7 +191,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-
 /*contact us colume*/
 
 .mapLayout {
@@ -186,15 +198,17 @@ of those sections to manage the look and feel of the site. */
     /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));*/
     padding: 20px;
 }
-.contactUsLayout{
+
+.contactUsLayout {
     min-width: 100vh;
     min-height: 100vh;
     width: 100%;
     height: 100%;
     padding: 10vh;
-    padding-top:12vh; 
+    padding-top: 12vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));
 }
+
 #map {
     min-width: 300px;
     min-height: 60vh;
@@ -202,7 +216,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
 }
 
-.addressInMap{
+.addressInMap {
     min-width: 300px;
     min-height: 60vh;
     width: 100%;
@@ -210,85 +224,127 @@ of those sections to manage the look and feel of the site. */
     padding: 15px;
 }
 
-.blackTransperentColor{
+.blackTransperentColor {
     background: rgba(229, 226, 224, 0.12);
-    border: 5px; 
+    border: 5px;
     border-color: rgba(133, 125, 121, 0.53);
 }
 
-.AddressDesign{
+.AddressDesign {
     background: rgba(36, 35, 34, 0.82);
 }
 
-.trasperentcOLOR{
+.trasperentcOLOR {
     background: rgba(0, 0, 0, 0.34);
 }
-.robotoSlabHeading400{
+
+.robotoSlabHeading400 {
     font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
-      font-size: 1.4em;
+    font-size: 1.4em;
     font-weight: 400;
     color: white;
 }
-.onHoverwhite{
 
+.onHoverwhite {
     color: whitesmoke;
 }
-.onGreen{
 
+.onGreen {
     color: green;
 }
-.onHoverwhite:hover{
+
+.onHoverwhite:hover {
     color: rgba(255, 243, 235, 0.8);
 }
 
-.noborders{
-    border:2px;
+.noborders {
+    border: 2px;
     border-bottom-color: rgba(193, 105, 68, 0.75);
 }
 
-.padding5px{
+.padding5px {
     padding: 5px;
 }
 
 
 /*ServiceBlock*/
 
-.serviceLayout{
+.serviceLayout {
     min-width: 100vh;
     min-height: 100vh;
     width: 100%;
     height: 100%;
     padding: 10vh;
-    padding-top:9vh; 
+    padding-top: 9vh;
     background-image: radial-gradient( rgba(193, 105, 68, 0.08), rgba(193, 105, 68, 0.25));
 }
+
 #services img.icon {
-  display: block;
-  width: 100px;
-  margin: 0 auto;
-  height: 100px;
-  margin-bottom: 5px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+    margin-bottom: 5px;
 }
-.svgFileLayOut{
-  display: block;
-  width: 80px;
-  margin: 0 auto;
-  margin-bottom: 5px;
+
+.svgFileLayOut {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
-.img-circle{
+
+.img-circle {
     content: 25px;
     background-color: whitesmoke;
     padding: 5px;
-    border: 5px ;
-    border-radius: 15px;   
+    border: 5px;
+    border-radius: 15px;
 }
 
-.listToCenter{
+.listToCenter {
     margin: auto;
     width: 75%;
     padding: 10px;
 }
 
-.servicespadding20vh{
-    padding-top:9vh; 
+.servicespadding20vh {
+    padding-top: 9vh;
+}
+
+
+/*new contactUs*/
+
+.newcontactUsLayout {
+    min-width: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding-top: 9vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));
+}
+
+.mapLayOut {
+    min-width: 100vh;
+    min-height: 75vh;
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.contactLayOut {
+    min-width: 100vh;
+    min-height: 25vh;
+    width: 100%;
+}
+
+.paddingTop5vh{
+    padding-top: 5vh;
+}
+
+.contactInfo{
+    padding: 0vh 10vh;
+
+}
+.whiteColor{
+    color: whitesmoke;
 }

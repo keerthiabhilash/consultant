@@ -18,37 +18,61 @@ $(function () {
     });
 });
 
-function initMap() {
-    var mapDiv = document.getElementById('map');
-    var map = new google.maps.Map(mapDiv, {
-        center: {
-            lat: 44.540,
-            lng: -78.546
-        },
-        zoom: 8
-    });
-}
+// function initMap() {
+//     var mapDiv = document.getElementById('map');
+//     var map = new google.maps.Map(mapDiv, {
+//         center: {
+//             lat: 44.540,
+//             lng: -78.546
+//         },
+//         zoom: 8
+//     });
+// }
 
 // // smooth scrolling
-$(function(){	
+$(function () {
 
-        var $window = $(window);
-	var scrollTime = 1.1;
-	var scrollDistance = 150;
+    var $window = $(window);
+    var scrollTime = 1.1;
+    var scrollDistance = 150;
 
-	$window.on("mousewheel DOMMouseScroll", function(event){
+    $window.on("mousewheel DOMMouseScroll", function (event) {
 
-		event.preventDefault();	
+        event.preventDefault();
 
-		var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
-		var scrollTop = $window.scrollTop();
-		var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+        var delta = event.originalEvent.wheelDelta / 120 || -event.originalEvent.detail / 3;
+        var scrollTop = $window.scrollTop();
+        var finalScroll = scrollTop - parseInt(delta * scrollDistance);
 
-		TweenMax.to($window, scrollTime, {
-			scrollTo : { y: finalScroll, autoKill:true },
-				ease: Power1.easeOut,
-				overwrite: 5							
-			});
+        TweenMax.to($window, scrollTime, {
+            scrollTo: { y: finalScroll, autoKill: true },
+            ease: Power1.easeOut,
+            overwrite: 5
+        });
 
-	});
+    });
 });
+
+
+
+
+
+// these is where the map hets it details and css from
+var map;
+function initialize() {
+
+    var myLatLng = { lat: 44.828172, lng: -93.140782 };
+
+    map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: myLatLng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: [{ "featureType": "landscape", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "stylers": [{ "saturation": -100 }, { "lightness": 51 }, { "visibility": "simplified" }] }, { "featureType": "road.highway", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "road.arterial", "stylers": [{ "saturation": -100 }, { "lightness": 30 }, { "visibility": "on" }] }, { "featureType": "road.local", "stylers": [{ "saturation": -100 }, { "lightness": 40 }, { "visibility": "on" }] }, { "featureType": "transit", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "administrative.province", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "on" }, { "lightness": -25 }, { "saturation": -100 }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }]
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+    });
+}

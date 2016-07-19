@@ -45,7 +45,7 @@ export default class Header extends React.Component {
                                 </li>
                                 <li>
                                     <a class="page-scroll" href="#contactUs">
-                                    <label class="customeFontSans500 navbarlinksColor">
+                                    <label class="customeFontSans500 navbarlinksColor hvr-underline-from-left">
                                     <span class="glyphicon glyphicon-envelope orangeColour"></span> Contact</label></a>
                                 </li>
                             </ul>
