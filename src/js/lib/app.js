@@ -29,31 +29,48 @@ $(function () {
 //     });
 // }
 
-// // smooth scrolling
-$(function () {
+// // // smooth scrolling
+// $(function () {
 
-    var $window = $(window);
-    var scrollTime = 1.1;
-    var scrollDistance = 150;
+//     var $window = $(window);
+//     var scrollTime = 1.1;
+//     var scrollDistance = 150;
 
-    $window.on("mousewheel DOMMouseScroll", function (event) {
+//     $window.on("mousewheel DOMMouseScroll", function (event) {
 
-        event.preventDefault();
+//         event.preventDefault();
 
-        var delta = event.originalEvent.wheelDelta / 120 || -event.originalEvent.detail / 3;
-        var scrollTop = $window.scrollTop();
-        var finalScroll = scrollTop - parseInt(delta * scrollDistance);
+//         var delta = event.originalEvent.wheelDelta / 120 || -event.originalEvent.detail / 3;
+//         var scrollTop = $window.scrollTop();
+//         var finalScroll = scrollTop - parseInt(delta * scrollDistance);
 
-        TweenMax.to($window, scrollTime, {
-            scrollTo: { y: finalScroll, autoKill: true },
-            ease: Power1.easeOut,
-            overwrite: 5
-        });
+//         TweenMax.to($window, scrollTime, {
+//             scrollTo: { y: finalScroll, autoKill: true },
+//             ease: Power1.easeOut,
+//             overwrite: 5
+//         });
 
-    });
+//     });
+// });
+
+$(document).ready(function(){ 
+    $('#characterLeft').text('140 characters left');
+    $('#message').keydown(function () {
+        var max = 140;
+        var len = $(this).val().length;
+        if (len >= max) {
+            $('#characterLeft').text('You have reached the limit');
+            $('#characterLeft').addClass('red');
+            $('#btnSubmit').addClass('disabled');            
+        } 
+        else {
+            var ch = max - len;
+            $('#characterLeft').text(ch + ' characters left');
+            $('#btnSubmit').removeClass('disabled');
+            $('#characterLeft').removeClass('red');            
+        }
+    });    
 });
-
-
 
 
 

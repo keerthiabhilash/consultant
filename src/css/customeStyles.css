@@ -20,6 +20,7 @@
 
 .navbar-default {
     background: rgba(255, 255, 255, 0);
+    background: rgba(0, 20, 26, 0.66);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
 }
 
@@ -122,12 +123,7 @@ html {
     }
 }
 
-@media(min-width:400px) {
-    html {
-        overflow-x: auto;
-        overflow-y: auto;
-    }
-}
+
 
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -392,12 +388,25 @@ of those sections to manage the look and feel of the site. */
 } 
 
 /*Career section*/
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: rgba(255, 255, 255, 0.82);
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
 .carrerLayOut{
     min-width: 100vh;
     min-height: 100vh;
     width: 100%;
     height: 100%;
     padding-top: 0vh;
+
+    
    
     /*background-color: #b4d7a8;;*/
     /*background-image: radial-gradient(rgba(200, 215, 86, 0.1), rgba(0, 0, 0, 0.65));*/
@@ -413,12 +422,39 @@ of those sections to manage the look and feel of the site. */
  
 .cd-fixed-bg.cd-bg-1 {
      min-width: 100vh;
-      min-height: 100vh;
-      background-image: url("../images/career.jpg");
+      min-height: 99vh;
+          border-bottom: 2vh;
+    border-top: 2vh;
+    border-color: rgba(250, 107, 51, 1);
+      /*background-image: url("../images/career1.jpg");*/
  
 }
 .careerContent{
      min-width: 100vh;
       min-height: 100vh;
-      background-color: rgba(26, 29, 7, 0.55);
+      background-color: whitesmoke;
+}
+
+.careerInfo{
+     min-height: 70vh;
+     min-width: 100vh;
+     padding-top: 10vh;
+}
+.venderInfo{
+    min-height: 20vh;
+    min-width: 100vh; 
+    background-color: whitesmoke;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+.contactHeading{
+    min-height: 10vh;
+     min-width: 100vh; 
+
+}
+
+.imagenIconsize{
+    width: 5vh;
+    height: 5vh;
 }

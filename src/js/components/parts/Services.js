@@ -13,7 +13,7 @@ export default class Services extends React.Component {
 
         <div id="" class="row">
           <div class="col-lg-12">
-            <h1 class="robotoSlabHeading700 text-center">Our Company</h1>
+            <h1 class="robotoSlabHeading700 text-center">About Us</h1>
             <div class="padding15px">
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <p class="paraLines">TechVisionCo is a consulting and technology services company that thrives on leveraging cutting-edge technology to kindle, strengthen and drive staggering business value.</p>
@@ -30,7 +30,7 @@ export default class Services extends React.Component {
 
 
         <div id="services" class="servicespadding20vh">
-          <h2 class="orangeColour text-center">Services</h2>
+              <h1 class="robotoSlabHeading700 text-center">Services</h1>
           <br/>
           <div class="row padding15px">
 
