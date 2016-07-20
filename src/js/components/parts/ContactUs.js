@@ -1,15 +1,13 @@
 import React from "react";
 
-
-
 export default class ContactUs extends React.Component {
 
     render() {
         return (
 
             <div id="contactUs" class="newcontactUsLayout">
-                <div class="row">
-                    <div class="col-lg-12 contactLayOut">
+                <div class="row contactLayOut">
+                    <div class="col-lg-12 ">
                         <div class="text-center">
                             <h1 class="robotoSlabHeading700">
                                 <span class="glyphicon glyphicon-map-marker onHoverGreen"></span>
@@ -21,15 +19,22 @@ export default class ContactUs extends React.Component {
                        
                             <div class="row">
                              <div class="contactInfo">
+
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-road orangeColour"></span> : 3034 129th Avenue NE Blaine, Minnesota 55449</h4>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h4 class="text-center whiteColor"> <span class="glyphicon glyphicon-send orangeColour"></span> <a href="mailto:info@octahedron.us" class="onHoverwhite"> : info @octahedron.us</a></h4>
+                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-send orangeColour"></span> Mail :  <a href="mailto:info@octahedron.us" class="onHoverwhite">Hr@techvision-us.com</a></h4>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-earphone orangeColour"></span> : (703) 1234 1234</h4>
+
+                                <address class="text-center whiteColor">
+                                <h4>
+                                  <span class="glyphicon glyphicon-road orangeColour"></span> : 3571 Springwood path,<br/> Eagan, <br/>Minnesota-55123<br/>
+                                   </h4>
+                                    </address>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-earphone orangeColour"></span> Phone : (703) 1234 1234</h4>
                                 </div>
 
                             </div>
@@ -38,7 +43,7 @@ export default class ContactUs extends React.Component {
                     </div>
                 </div>
 
-                <div class="row paddingTop5vh">
+                <div class="row">
                     <div id="map" class="mapLayOut">
                     </div>
 

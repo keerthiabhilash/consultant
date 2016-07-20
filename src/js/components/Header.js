@@ -31,21 +31,21 @@ export default class Header extends React.Component {
                                 <li class="hidden">
                                     <a class="page-scroll" href="#page-top"></a>
                                 </li>
-                                <li>
+                                <li class="hvr-underline-from-left">
                                     <a class="page-scroll" href="#ourMission">
                                     <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-user orangeColour"></span> About US</label></a>
                                 </li>
-                                <li>
+                                <li class="hvr-underline-from-left">
                                 <a class="page-scroll" href="#services">
                                     <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-bullhorn orangeColour"></span> Services</label></a>
                                 </li>
-                                <li>
-                                <a class="page-scroll" href="#services">
+                                <li class="hvr-underline-from-left">
+                                <a class="page-scroll" href="#career">
                                     <label class="customeFontSans500 navbarlinksColor"><span class="glyphicon glyphicon-road orangeColour"></span> Careers</label></a>
                                 </li>
-                                <li>
+                                <li class="hvr-underline-from-left">
                                     <a class="page-scroll" href="#contactUs">
-                                    <label class="customeFontSans500 navbarlinksColor hvr-underline-from-left">
+                                    <label class="customeFontSans500 navbarlinksColor ">
                                     <span class="glyphicon glyphicon-envelope orangeColour"></span> Contact</label></a>
                                 </li>
                             </ul>

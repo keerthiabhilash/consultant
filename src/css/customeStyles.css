@@ -13,6 +13,11 @@
     padding: 15px;
 }
 
+.padding5pxtopBotton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .navbar-default {
     background: rgba(255, 255, 255, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 20, 26, 0.66));
@@ -46,6 +51,12 @@
     margin-top: 10px;
     font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
 }
+.paraLines{
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Alegreya Sans', 'Kaushan Script', sans-serif;
+}
+
 
 .navbarHeadingTextColor:hover {
     color: hsl(20, 90%, 75%);
@@ -74,7 +85,13 @@
     color: hsl(20, 100%, 65%);
 }
 
+.hvr-underline-from-left:before {
+    background: linear-gradient(to right, rgba(250, 107, 51, 1), rgba(255, 248, 245, 0.78));
+}
+.hvr-shutter-out-vertical:before{
+     background: rgba(250, 107, 51, 1);
 
+}
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -84,13 +101,13 @@
 body {
     width: 100%;
     height: 100%;
+
 }
 
 html {
     width: 100%;
     height: 100%;
-    overflow-x: auto;
-    overflow-y: auto;
+
 }
 
 @media(min-width:767px) {
@@ -194,8 +211,6 @@ of those sections to manage the look and feel of the site. */
 /*contact us colume*/
 
 .mapLayout {
-    /*background: rgba(36, 35, 34, 0.82);*/
-    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65), rgba(36, 35, 34, 0.82));*/
     padding: 20px;
 }
 
@@ -326,25 +341,84 @@ of those sections to manage the look and feel of the site. */
 
 .mapLayOut {
     min-width: 100vh;
-    min-height: 75vh;
+    min-height: 100vh;
     width: 100%;
-    padding-top: 5vh;
 }
 
 .contactLayOut {
     min-width: 100vh;
-    min-height: 25vh;
+    min-height: 20vh;
     width: 100%;
 }
 
-.paddingTop5vh{
+/*.paddingTop5vh{
     padding-top: 5vh;
-}
+}*/
 
-.contactInfo{
+/*.contactInfo{
     padding: 0vh 10vh;
 
-}
+}*/
 .whiteColor{
     color: whitesmoke;
+}
+
+.alignCenter {
+    align-content: center;
+}
+
+.blackColor{
+    background: rgba(0, 0, 0, 0.83);
+         border: 0px;
+}
+
+.greenColorBotton{
+    background: rgba(67, 142, 234, 0.9);
+    border: 0px;
+    color: ghostwhite;
+}
+
+.btn-primary { 
+    background-color: rgba(67, 142, 234, 0.9); 
+    border-color: rgba(67, 142, 234, 0.9); 
+    border: 0px;
+}  
+.btn-primary:hover, 
+.btn-primary:focus,  
+.btn-primary:active { 
+    background-color: rgba(250, 107, 51, 1); 
+    border: 0px;
+    color: ghostwhite;
+} 
+
+/*Career section*/
+.carrerLayOut{
+    min-width: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding-top: 0vh;
+   
+    /*background-color: #b4d7a8;;*/
+    /*background-image: radial-gradient(rgba(200, 215, 86, 0.1), rgba(0, 0, 0, 0.65));*/
+}
+
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+     min-width: 100vh;
+      min-height: 100vh;
+      background-image: url("../images/career.jpg");
+ 
+}
+.careerContent{
+     min-width: 100vh;
+      min-height: 100vh;
+      background-color: rgba(26, 29, 7, 0.55);
 }
