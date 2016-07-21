@@ -38,7 +38,7 @@ export default class Services extends React.Component {
               <img class="icon" src="../../../icons/java-orange.svg" alt="Icon"></img>
               <h3 class="text-center ">Application Development</h3>
               <div class="listToCenter">
-                <p class="text-center paraLines">We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <p class="text-center paraLines">We offer complete solution for App development in any programming Language.</p>
                 <p class="alignCenter  text-center paraLines"><a href="#applicationDev" data-toggle="modal" class="btn btn-primary hvr-grow-shadow " role="button">Learn More</a></p>
               </div>
             </article>
@@ -46,10 +46,10 @@ export default class Services extends React.Component {
 
             <article class="service col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <img class="icon" src="../../../icons/javascript.svg" alt="Icon"></img>
-              <h3 class="text-center">Web Design & Support</h3>
+              <h3 class="text-center">Web Design & Development</h3>
 
               <div class="listToCenter">
-                <p class="text-center paraLines">We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <p class="text-center paraLines">We offer wide range of Web development solution for best User Experience.</p>
                 <p class="text-center paraLines"><a href="#webTech" data-toggle="modal" class="btn btn-primary hvr-grow-shadow" role="button">Learn More</a></p>
               </div>
             </article>
@@ -61,7 +61,7 @@ export default class Services extends React.Component {
               <img class="icon " src="../../../icons/database.svg" alt="Icon"></img>
                     <h3 class="text-center">Data Engineering</h3>
               <div class="listToCenter">       
-                <p class="text-center paraLines">We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <p class="text-center paraLines">Database Engineering, Big Data, Business Intelligence.</p>
                 <p class="text-center paraLines"><a href="#database" data-toggle="modal" class="btn btn-primary hvr-grow-shadow" role="button">Learn More</a></p>
               </div>
             </article>
@@ -71,7 +71,7 @@ export default class Services extends React.Component {
               <img class="icon" src="../../../icons/cloud-computing-colour.svg" alt="Icon"></img>
               <h3 class="text-center">Cloud Computing</h3>
               <div class="listToCenter ">
-                <p class="text-center paraLines">We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <p class="text-center paraLines">Our experts have handson valuable experience in some of the most inventive cloud-driven technologies such has ServiceNow and Salesforce.</p>
                 <p class="text-center paraLines"><a href="#cloud" data-toggle="modal" class="btn btn-primary hvr-grow-shadow" role="button">Learn More</a></p>
               </div>
             </article>
@@ -80,7 +80,7 @@ export default class Services extends React.Component {
               <img class="icon" src="../../../icons/server.svg" alt="Icon"></img>
               <h3 class="text-center">Infrastructure Engineer</h3>
               <div class="listToCenter">
-                <p class="text-center paraLines">We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <p class="text-center paraLines">We providing hands-on experience in middleware and integration products.</p>
                 <p class="text-center paraLines"><a href="#networkSystemAdmin" data-toggle="modal" class="btn btn-primary hvr-grow-shadow" role="button">Learn More</a></p>
               </div>
             </article>

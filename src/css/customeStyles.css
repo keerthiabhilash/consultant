@@ -13,7 +13,7 @@
     padding: 15px;
 }
 
-.padding5pxtopBotton{
+.padding5pxtopBotton {
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -52,12 +52,19 @@
     margin-top: 10px;
     font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
 }
-.paraLines{
+
+.paraLines {
     font-size: 1.2em;
     font-weight: 500;
     font-family: 'Alegreya Sans', 'Kaushan Script', sans-serif;
 }
 
+.headingLayout{
+    font-family: 'Roboto Slab', 'Kaushan Script', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
 
 .navbarHeadingTextColor:hover {
     color: hsl(20, 90%, 75%);
@@ -89,10 +96,12 @@
 .hvr-underline-from-left:before {
     background: linear-gradient(to right, rgba(250, 107, 51, 1), rgba(255, 248, 245, 0.78));
 }
-.hvr-shutter-out-vertical:before{
-     background: rgba(250, 107, 51, 1);
 
+.hvr-shutter-out-vertical:before {
+    background: rgba(250, 107, 51, 1);
 }
+
+
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -102,13 +111,11 @@
 body {
     width: 100%;
     height: 100%;
-
 }
 
 html {
     width: 100%;
     height: 100%;
-
 }
 
 @media(min-width:767px) {
@@ -122,8 +129,6 @@ html {
         padding: 8px;
     }
 }
-
-
 
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -347,15 +352,18 @@ of those sections to manage the look and feel of the site. */
     width: 100%;
 }
 
+
 /*.paddingTop5vh{
     padding-top: 5vh;
 }*/
+
 
 /*.contactInfo{
     padding: 0vh 10vh;
 
 }*/
-.whiteColor{
+
+.whiteColor {
     color: whitesmoke;
 }
 
@@ -363,98 +371,113 @@ of those sections to manage the look and feel of the site. */
     align-content: center;
 }
 
-.blackColor{
+.blackColor {
     background: rgba(0, 0, 0, 0.83);
-         border: 0px;
+    border: 0px;
 }
 
-.greenColorBotton{
+.greenColorBotton {
     background: rgba(67, 142, 234, 0.9);
     border: 0px;
     color: ghostwhite;
 }
 
-.btn-primary { 
-    background-color: rgba(67, 142, 234, 0.9); 
-    border-color: rgba(67, 142, 234, 0.9); 
+.btn-primary {
+    background-color: rgba(67, 142, 234, 0.9);
+    border-color: rgba(67, 142, 234, 0.9);
     border: 0px;
-}  
-.btn-primary:hover, 
-.btn-primary:focus,  
-.btn-primary:active { 
-    background-color: rgba(250, 107, 51, 1); 
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: rgba(250, 107, 51, 1);
     border: 0px;
     color: ghostwhite;
-} 
+}
+
 
 /*Career section*/
 
-.red{
-    color:red;
-    }
-.form-area
-{
-    background-color: rgba(255, 255, 255, 0.82);
-	padding: 10px 40px 60px;
-	margin: 10px 0px 60px;
-	border: 1px solid GREY;
-	}
-.carrerLayOut{
+.red {
+    color: red;
+}
+
+.form-area {
+    background-color: rgba(255, 255, 255, 0.31);
+    padding: 10px 40px 60px;
+    margin: 0px 40px 60px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.carrerLayOut {
     min-width: 100vh;
     min-height: 100vh;
     width: 100%;
     height: 100%;
     padding-top: 0vh;
-
-    
-   
     /*background-color: #b4d7a8;;*/
     /*background-image: radial-gradient(rgba(200, 215, 86, 0.1), rgba(0, 0, 0, 0.65));*/
 }
 
 .cd-fixed-bg {
-	min-height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
- 
-.cd-fixed-bg.cd-bg-1 {
-     min-width: 100vh;
-      min-height: 99vh;
-          border-bottom: 2vh;
-    border-top: 2vh;
-    border-color: rgba(250, 107, 51, 1);
-      /*background-image: url("../images/career1.jpg");*/
- 
-}
-.careerContent{
-     min-width: 100vh;
-      min-height: 100vh;
-      background-color: whitesmoke;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.careerInfo{
-     min-height: 70vh;
-     min-width: 100vh;
-     padding-top: 10vh;
+.cd-fixed-bg.cd-bg-1 {
+    min-width: 100vh;
+    min-height: 99vh;
+    border-bottom: 2vh;
+    border-top: 2vh;
+    border-color: rgba(250, 107, 51, 1);
+    /*background-image: url("../images/career1.jpg");*/
 }
-.venderInfo{
+
+.careerContent {
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.careerInfo {
+    min-height: 70vh;
+    min-width: 100vh;
+    padding-top: 10vh;
+}
+
+.venderInfo {
     min-height: 20vh;
-    min-width: 100vh; 
+    min-width: 100vh;
     background-color: whitesmoke;
     padding-left: 15vh;
     padding-right: 15vh;
 }
 
-.contactHeading{
+.contactHeading {
     min-height: 10vh;
-     min-width: 100vh; 
-
+    min-width: 100vh;
 }
 
-.imagenIconsize{
+.imagenIconsize {
     width: 5vh;
     height: 5vh;
+}
+
+.occupy25per {
+    min-height: 35vh;
+    min-width: 100vh;
+}
+
+.padding5px {
+    padding: 5px;
+}
+
+.borderOrange{
+        border: 2px solid orange;
+    border-radius: 5px;
 }
