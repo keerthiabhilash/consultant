@@ -13,7 +13,7 @@ export default class Services extends React.Component {
 
         <div id="" class="row">
           <div class="col-lg-12">
-            <h1 class="robotoSlabHeading700 text-center">About Us</h1>
+            <h1 class="robotoSlabHeading700 text-center"><strong class="hvr-shadow">About Us</strong></h1>
             <div class="padding15px">
               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <p class="paraLines">TechVisionCo is a consulting and technology services company that thrives on leveraging cutting-edge technology to kindle, strengthen and drive staggering business value.</p>
@@ -30,13 +30,13 @@ export default class Services extends React.Component {
 
 
         <div id="services" class="servicespadding20vh">
-              <h1 class="robotoSlabHeading700 text-center">Services</h1>
+              <h1 class="robotoSlabHeading700  text-center"><strong class="hvr-shadow">Services</strong></h1>
           <br/>
           <div class="row padding15px">
 
             <article class="service col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <img class="icon" src="../../../icons/java-orange.svg" alt="Icon"></img>
-              <h3 class="text-center ">Application Development</h3>
+              <h3 class="text-center">Application Development</h3>
               <div class="listToCenter">
                 <p class="text-center paraLines">We offer complete solution for App development in any programming Language.</p>
                 <p class="alignCenter  text-center paraLines"><a href="#applicationDev" data-toggle="modal" class="btn btn-primary hvr-grow-shadow " role="button">Learn More</a></p>
@@ -77,7 +77,7 @@ export default class Services extends React.Component {
             </article>
 
             <article class="service col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
-              <img class="icon" src="../../../icons/server.svg" alt="Icon"></img>
+              <img class="icon " src="../../../icons/server.svg" alt="Icon"></img>
               <h3 class="text-center">Infrastructure Engineer</h3>
               <div class="listToCenter">
                 <p class="text-center paraLines">We providing hands-on experience in middleware and integration products.</p>

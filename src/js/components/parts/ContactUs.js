@@ -16,25 +16,25 @@ export default class ContactUs extends React.Component {
                         </div>
                         <br />
 
-                       
-                            <div class="row">
-                             <div class="contactInfo">
+
+                        <div class="row">
+                            <div class="contactInfo">
 
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-send orangeColour"></span> Mail :  <a href="mailto:info@octahedron.us" class="onHoverwhite">Hr@techvision-us.com</a></h4>
+                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-send orangeColour"></span> Mail: <a href="mailto:info@octahedron.us" class="onHoverwhite">Hr @techvision-us.com</a></h4>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
-                                <address class="text-center whiteColor">
-                                <h4>
-                                  <span class="glyphicon glyphicon-road orangeColour"></span> : 3571 Springwood path,<br/> Eagan, <br/>Minnesota-55123<br/>
-                                   </h4>
+                                    <address class="text-center whiteColor">
+                                        <h4>
+                                            <span class="glyphicon glyphicon-road orangeColour"></span>: 3571 Springwood path, <br/> Eagan, <br/>Minnesota-55123<br/>
+                                        </h4>
                                     </address>
                                 </div>
 
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-earphone orangeColour"></span> Phone : (703) 1234 1234</h4>
+                                    <h4 class="text-center whiteColor"><span class="glyphicon glyphicon-earphone orangeColour"></span> Phone: (703) 1234 1234</h4>
                                 </div>
 
                             </div>

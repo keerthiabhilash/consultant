@@ -7,14 +7,14 @@ export default class Career extends React.Component {
 
             <div id="career" class="carrerLayOut">
                 <div class="cd-fixed-bg cd-bg-1">
-                    <div class="careerContent">
+                    <div class="careerContent texturebackground">
                         <div class="container careerInfo">
                             <div class="row contactHeading text-center">
                                 <h1 class="robotoSlabHeading700 text-center">Want to Join Us</h1>
                             </div>
                             <div class="row">
                                 <div class="col-lg-7 col-md-12 col-sm-12">
-                                    <div class="panel panel-default panel-danger borderOrange">
+                                    <div class="panel panel-default panel-danger borderOrange shadow2px">
                                         <div class="panel-heading headingLayout text-center">Our Partners</div>
                                         <div class="panel-body">
 
@@ -55,7 +55,7 @@ export default class Career extends React.Component {
                                         </div>
                                     </div>
 
-                                    <div class="panel panel-default panel-danger borderOrange">
+                                    <div class="panel panel-default panel-danger borderOrange shadow2px">
                                         <div class="panel-heading headingLayout text-center">Job Openings</div>
                                         <div class="panel-body">
 
@@ -63,9 +63,9 @@ export default class Career extends React.Component {
                                     </div>
                                 </div>
                                 <div class="col-lg-5 col-md-12 col-sm-12">
-                                    <div class="form-area">
+                                    <div class="form-area shadow2px">
                                         <form role="form">
-                                            <h3 class="robotoSlabHeading700 text-center">Contact Form</h3>
+                                            <h3 class="robotoSlabHeading700 text-center ">Contact Form</h3>
                                             <div class="form-group">
                                                 <input type="text" class="form-control" id="name" name="name" placeholder="Last , First Name  " required/>
                                             </div>

@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
           <div class="container">
            
               <div class="navbar-header">
-                  <h4 class="orangeColour ">&copy; 2016 TechVision-US.</h4>
+                  <h4 class="orangeColour ">&copy; 2016 TechVision.</h4>
                   <p class="navbarlinksColor400">All right reserved.</p>
               </div>
 
